@@ -1,14 +1,15 @@
 const hre = require("hardhat");
 require("dotenv").config();
 
-const oappAddress = '0x9058Be253db2c1d54Ed6b6eaA661bb1B066B9F5b';   //fix
-const sendLibAddress = '0x975bcD720be66659e3EB3C0e4F1866a3020E493A';
-const receiveLibAddress = '0x7B9E184e07a6EE1aC23eAe0fe8D6Be2f663f05e6'
+const oappAddress = '0x9058Be253db2c1d54Ed6b6eaA661bb1B066B9F5b';
+const sendLibAddress = '0xbB2Ea70C9E858123480642Cf96acbcCE1372dCe1';
+const receiveLibAddress = '0xc02Ab410f0734EFa3F14628780e6e695156024C2'
 const endpointAddress = '0x1a44076050125825900e736c501f859c50fE728c'
 const lzDVNAddress = '0x589dEDbD617e0CBcB916A9223F4d1300c294236b'
 const nmDVNAddress = '0xa59BA433ac34D2927232918Ef5B2eaAfcF130BA5'
-const executorAddress = '0x31CAe3B7fB82d847621859fb1585353c5720660D'
+const executorAddress = '0x173272739Bd7Aa6e4e214714048a9fE699453059'
 
+const SolanaEid = 30168
 const ArbitrumEid = 30110
 
 async function main() {

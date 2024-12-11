@@ -1,8 +1,9 @@
 const hre = require("hardhat");
 
-const tokenAddr = "0x9058Be253db2c1d54Ed6b6eaA661bb1B066B9F5b"  // fix
+const tokenAddr = "0x9058Be253db2c1d54Ed6b6eaA661bb1B066B9F5b"
 // OFT Config Address. Base64 -> Hex
-const tokenAddrArbitrum = "0x0000000000000000000000009058Be253db2c1d54Ed6b6eaA661bb1B066B9F5b"  //fix
+const tokenAddrSolana = ""
+const tokenAddrArbitrum = ""
 
 const SolanaEid = 30168
 const ArbitrumEid = 30110
