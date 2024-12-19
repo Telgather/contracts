@@ -16,8 +16,6 @@ npx hardhat run --network arb_oft oft_scripts/1_deploy_oft.js
 npx hardhat run --network arb_oft oft_scripts/6_transfer_owner.js
 ```
 
-合约部署完后 将成功铸造出来的代码转移到多签地址 0x0D5D2564bf5a608009A32acB8E5ACC11495C5DA1  进行保管以及分配。
-
-多签地址里一共是3个钱包地址，门槛是2。
+Following the deployment of the smart contract, mint the tokens and transfer them securely to the multisignature address. This address is safeguarded by multiple wallets, requiring over 50% approval to authorize any transactions.
 
 

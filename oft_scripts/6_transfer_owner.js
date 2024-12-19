@@ -1,7 +1,7 @@
 const hre = require("hardhat");
 
-const tokenAdddr = "0x44655a076914CAB98d1CEE823a60A0B8DA00659f"
-const multisig = "0x0D5D2564bf5a608009A32acB8E5ACC11495C5DA1"
+const tokenAdddr = ""
+const multisig = ""
 
 async function main() {
     const [deployer] = await hre.ethers.getSigners();
