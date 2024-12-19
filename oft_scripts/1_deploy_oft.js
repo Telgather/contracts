@@ -5,8 +5,8 @@ async function main() {
 
   const TelgatherToken = await hre.ethers.getContractFactory("TelgatherToken");
   let token = await TelgatherToken.deploy(
-    "Token of Games Test",
-    "TOGTest",
+    "Token of Games",
+    "TOG",
     "0x1a44076050125825900e736c501f859c50fE728c",
     e18("10000000000")
   );
